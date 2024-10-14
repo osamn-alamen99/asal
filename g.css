@@ -1,0 +1,80 @@
+
+body{
+   background-color: white;
+
+    font-family: "Readex Pro", sans-serif;
+}
+header {
+    background-color: #333; /* لون الخلفية */
+    color: white; /* لون النص */
+    padding: 10px; /* تباعد داخلي */
+}
+
+nav a {
+    color: white; /* لون الرابط */
+    text-decoration: none; /* إزالة الخط أسفل الرابط */
+    padding: 10px 15px; /* تباعد داخلي حول الرابط */
+    display: inline-block; /* عرض ككتلة */
+}
+
+nav a:hover {
+    background-color: #555; /* تغيير اللون عند المرور بالماوس */
+}
+
+#mother{
+    width: 100%;
+    font-size: 20px;
+}
+main{
+    float: left;
+    border: 10px solid white;
+    padding: 5px;
+
+}
+input{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 17px;
+    font-family: "Readex Pro", sans-serif; 
+
+}
+aside{
+    text-align: center;
+    width: 300px;
+    float: right;
+    border: 1px solid black;
+    padding: 1px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+#tbl{
+    width: 890px;
+    font-size: 20px;
+
+
+}
+#tbl th{
+    background-color: rgb(227, 227, 248);
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 7px;
+
+
+}
+aside button{
+    width: 200px;
+    padding: 8px;
+    margin-top:10px ;
+    font-family: "Readex Pro", sans-serif; 
+    font-size: 17px;
+    border-radius: 10px;
+    font: bold;
+    color: blue;
+
+}
+

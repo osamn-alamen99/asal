@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img{
+    width: 400PX;
+    height: 400PX;
+}
+.main{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 12px rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+.main input{
+    padding: 10px;
+    margin: 8px;
+    background-color: rgb(245, 245, 245);
+    border: 1px rgb(226, 226, 226);
+    outline: none;
+    border-radius: 20px;
+
+}
+button{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   border: 1PX rgb(226, 226, 226);
+   border-radius: 15px;
+
+}

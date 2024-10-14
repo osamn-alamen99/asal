@@ -1,0 +1,81 @@
+/* sq.css */
+
+/* إعدادات عامة للجسم */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* تنسيق الرأس */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* تنسيق النموذج */
+.asal {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* تنسيق الحقول */
+nav label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+nav input[type="text"],
+nav input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* تنسيق الأزرار */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* تنسيق الجدول */
+.info table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.info th, .info td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.info th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.info tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.info tr:hover {
+    background-color: #ddd;
+}
